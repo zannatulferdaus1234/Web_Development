@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+
+
+  <body class="mb-5">
+    <nav class="navbar navbar-expand-lg mb-5" style="background-color:green;">
+      <a class="navbar-brand text-center navbar-light text-white " style="padding-left:150px; font-size:42px;" href="#">Stdium Seat Booking</a>
+    </nav>
+
+
+    
+ 
+    <div class="container" >
+      <div class="row justify-content-center">
+        <div class="col-md-7" >
+          <h3 class="text-white text-left py-1 pl-4"style="background-color:green; width:300px;margin-bottom:1px;border-top-right-radius: 74px 42px;">Customer details</h3>
+          <hr style="margin:-1px 5px 0px 0px; border-color:green;  border: 2px solid green;">
+          
+
+
+          <div class="card" style="background-color:#e8eef7;">
+            <div class="card-body" style=" font-size:19px;">
+
+          <form >
+             <div class="form-group row mx-3">                             <!-- Name -->
+              <label for="name" class="col-md-3 col-form-label">Name</label>
+              <div class="col-md-9 ">
+                <input type="text" name="name" class="form-control " id="name" placeholder=" Enter Name">
+              </div>
+            </div>
+
+
+            <div class="form-group row mx-3">                             <!-- Age -->
+              <label for="age" class="col-md-3 col-form-label">Age</label>
+              <div class="col-md-9">
+                <input type="int" name="age" class="form-control" id="age" placeholder=" Age">
+              </div>
+            </div>
+
+
+            <div class="form-group row ml-3 ">                           <!--Gender-->
+              <label class="col-form col-md-3">Gender</label>
+              <div class="col-md-9">
+                <div class="form-check-inline">
+                  <input class="form-check-input" type="radio" name="gender" id="male" value="option1" checked>
+                  <label class="form-check-label pr-3" for="male">Male</label>
+
+                  <input class="form-check-input" type="radio" name="gender" id="female" value="option2">
+                  <label class="form-check-label" for="female">Female</label>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="form-group row mx-3">                           <!-- Profession -->
+              <label for="profession" class="col-md-3 col-form-label">Profession</label>
+              <div class="col-md-9">
+                <select class="form-control px-4" id="profession">
+                  <option selected>Student</option>
+                  <option value="1">Engineer</option>
+                  <option value="2">Doctor</option>
+                  <option value="3">Private Service</option>
+                  <option value="4">Goverment Service</option>
+                  <option value="5">Business</option>
+                  <option value="6">Teacher/Professor</option>
+                  <option value="7">Self Employed</option>
+                </select>
+              </div>
+            </div>
+
+
+            <div class="mx-4">                                              <!-- Allert -->
+              <h5 class="pt-3 pb-1" style="border-top: 1.2px dashed #bcb8b8; border-bottom: 1.5px solid black;">Contact Information</h5>
+
+               <div class="alert border-success mt-3 " role="alert" style="background-color:#fff9d7;  font-size:18px; "><img src="1.png" width="3%" style="margin:-7px 2px 0px -7px;"> For authentication, it is <font color="red">MANDATORY</font> to carry the mobile number (you are using below) while taking your ticket delivery.</div>
+            </div>
+
+
+            <div class="form-group row mx-3 pt-2">                          <!-- Mobile -->
+              <label for="mobile" class="col-md-3 col-form-label">Mobile</label>
+              <div class="col-md-9">
+                <input type="txt" name="mobile" class="form-control" id="mobile" placeholder="Eg. 01XXXXXXXXX">
+              </div>
+            </div>
+  
+
+            <div class="form-group row mx-3 pb-2" >                          <!-- Email -->
+              <label for="email" class="col-md-3 col-form-label">Email</label>
+              <div class="col-md-9">
+                <input type="email" name="email" class="form-control" id="email" placeholder="Eg. zannatulferdaus1234@gmail.com">
+              </div>
+            </div>
+
+
+            <div  class="mx-4">                                              <!-- Allert -->
+              <p class="pb-2" style="border-top: 1px dashed #bcb8b8;"></p>
+               <div class="alert border-success mb-4" role="alert" style="background-color:#fff9d7; font-size:18px;"><img src="1.png" width="3%" style="margin-top:-7px 2px 0px -7px;"> After successful payment, you have to pick-up your tickets from anyone of the following pick up points. Please select the pick up point from where you want to pick-up your tickets.  </div>
+            </div>
+
+            
+           <div class="form-group row mx-1 mb-5 pb-4">                       <!-- Pickup Point -->
+              <label for="pickupPoint" class="col-md-3  col-form-label">Pickup Point </label>
+              <div class="col-md-9">
+                <select class="form-control" id="pickupPoint">
+                  <option selected disabled value="">Choose Pickup Point </option>
+                  <option value="1">TICKET POINT (Mirpur-10)</option>
+                  <option value="2">TICKET POINT (Technical bus stand)</option>
+                  <option value="3">TICKET POINT (Kallyanpur bus stand)</option>
+                </select>
+              </div>
+            </div>
+
+            <a href="#" class="btn btn-success btn-lg mb-2" style="background-color:green; margin-left:300px; padding: 7px 50px 7px 50px;">CONFIRM TICKET</a>
+        
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+ </div> 
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
